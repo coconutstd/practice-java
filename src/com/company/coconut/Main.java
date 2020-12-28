@@ -1,15 +1,14 @@
 package com.company.coconut;
 
+import java.util.*;
+
 public class Main {
     public static void main(String[] args){
-        int[] scores = { 95, 71, 84, 93, 87 };
+        Map<Student, Integer> map = new HashMap<>();
 
-        int sum = 0 ;
-        for (int score : scores) {
-            sum += score;
-        }
-        System.out.println("점수 총합 = " + sum);
-        double avg = (double) sum / scores.length;
-        System.out.println("점수 평균 = " + avg);
+        map.put(new Student(1, "홍길동"), 95);
+        map.put(new Student(1, "홍길동"), 95);
+
+        System.out.println("총 Entry 수: " + map.size());
     }
 }
