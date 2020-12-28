@@ -1,4 +1,4 @@
-package com.company.coconut;
+package com.company.collections;
 
 import java.util.LinkedList;
 import java.util.Queue;

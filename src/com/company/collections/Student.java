@@ -1,4 +1,4 @@
-package com.company.coconut;
+package com.company.collections;
 
 public class Student {
     public int sno;
